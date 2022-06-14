@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="Ko-kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+<style>
+ 
+    body{padding: 0;
+         margin: 0;
+      box-sizing: border-box;
+      color: #373636;
+      font-family: 'Nanum Gothic', sans-serif;
+   }
+
+   h1{ color: black}
+   h3{margin: 0;
+      color: black;}
+   h4{margin: 0;
+      color: black;}
+   h6{margin-top: 0;
+      color: black;}
+   
+
+   
+
+ .div1{width: 100%;
+       background-color: #262927;       
+       height: 100px; 
+       
+       
+}
+
+ .logo_img{ 
+    padding-top: 19px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+ .div2{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    padding-top: 15px;}
+
+    .div2 a:hover{color: black;
+   font-weight: 600;}
+
+ .div2 a{
+     
+     margin-left: 54px;
+     margin-right: 54px;
+    
+     font-size: 24px;
+     text-decoration: none;
+     color: #3b3c42;
+     font-weight: 400;
+ } 
+
+ .div2-2 h1{
+    font-size: 36px;
+   text-align: center;
+ }
+
+.div3{
+   background-color: black
+   
+}
+
+.div3 input[id*="slide"] {display:none;}
+
+
+.div3 .slidewrap {
+ 
+   max-width:1200px;
+   margin:0 auto;
+   overflow:hidden;}
+
+.div3 .slidelist {
+   white-space:nowrap;
+   font-size:0;}
+
+.div3 .slidelist > li {
+      display:inline-block;
+      vertical-align:middle;
+      width:100%;
+      transition:all .5s;}
+
+.div3 .slidelist > li > a {
+   display:block;
+   position:relative;}
+   
+.div3 .slidelist > li > a img {width:100%;}
+
+
+.div3 .slidelist label {position:absolute;z-index:1;top:50%;transform:translateY(-50%);padding:50px;cursor:pointer;}
+.div3 .slidelist .left {left:30px;background:url('https://i.postimg.cc/JhjRTr63/left.png') center center / 100% no-repeat;}
+.div3 .slidelist .right {right:30px;background:url('https://i.postimg.cc/wvHgZCZC/right.png') center center / 100% no-repeat;}
+
+
+.div3 input[id="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+.div3 input[id="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+.div3 input[id="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+
+
+
+
+   .col{float: left;}
+
+  .div5_title{
+   font-size: 36px;
+   text-align: center;
+   width: 100%;
+   height: 200px;
+   line-height: 200px;}
+   
+   .div5_profile{
+      width: 14%;
+      height: 172px;
+      display: inline-block;  
+      background-image: url('https://i.postimg.cc/fWV2Fm3M/profi.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+      margin-left: 10.6%;
+   
+   }
+   
+   .div5_intro{
+      width: 75%;
+      height: 202px;
+      display: inline-block;
+
+    }
+   
+   .im5{position: relative;
+      height: 232px;
+      width:19%;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      box-shadow: 3px 3px 3px #373636;
+      
+   }
+
+   .im5:hover{
+      opacity: 0.8;
+
+   }
+
+   .div5_img{text-align: center;}
+
+   .na5{position: relative;
+      height: 32px;
+      width:19%;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      
+   }
+
+   .div5_name_2{display: none;
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 30px;
+      margin-top: 15px;}
+   
+
+   
+   .div5_name{
+      
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 30px;
+      margin-top: 15px;
+   }
+
+   .div5_name a{
+      font-weight: 600;
+      text-decoration: none;
+      color: #373636;
+   }
+
+   .div5_name_2 a{
+      font-weight: 600;
+      text-decoration: none;
+      color: #373636;
+   }
+
+   .div5_img1{
+      background-image: url('https://i.postimg.cc/g0jdF2L9/1.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+ 
+
+   }
+   .div5_img2{
+      background-image: url('https://i.postimg.cc/yNg5ygSN/2.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+     
+      
+   }
+   .div5_img3{
+      background-image: url('https://i.postimg.cc/508RDhgd/3.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+     
+      
+   }
+   .div5_img4{
+      background-image: url('https://i.postimg.cc/fyZrs8q3/4.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+     
+   }
+
+   .div5_more{
+      height: 70px;
+      width: 6%;
+
+      padding-left: 94%;
+      
+   }
+
+   .div5_more a{color: #a5a2a2;}
+   
+   .div5_more a:hover{color: #262927;}
+
+
+   .div6_title{
+      font-size: 36px;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      line-height: 200px;
+   }
+
+   .div6_category{
+      width: 100%;
+      height: 56px;
+      font-size: 24px;
+      text-align: center;
+      
+   }
+   .div6_name_2{
+      display: none;
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 30px;}
+
+   .div6_name{
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 30px;
+     
+   }
+   .div6_name_2 a{
+      text-decoration: none;
+      color: #373636;
+   }
+
+
+   
+
+   .div6_name a{
+      text-decoration: none;
+      color: #373636;
+   }
+
+
+   .div6_category a:not(:first-child){
+      margin-left: 8px;
+      margin-right: 8px;
+      text-decoration: none;
+       color: #726B6B;
+
+   }
+
+   .div6_category a:first-child{
+      text-decoration: none;
+      color: black;
+   }
+   
+   
+   .im6:hover{
+      opacity: 0.8;
+   }
+
+   .div6_img{text-align: center;}
+
+   .im6{position: relative;
+      height: 420px;
+      width:22.5%;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      box-shadow: 3px 3px 3px #373636;
+
+   }
+
+   .div6_img1{
+      background-image: url('https://i.postimg.cc/t4w6JjYL/image.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+ 
+
+   }
+   .div6_img2{
+      background-image: url('https://i.postimg.cc/59rpvZYS/image.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+     
+      
+   }
+   .div6_img3{
+      background-image: url('https://i.postimg.cc/fLT5jsfB/image.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+     
+      
+   }
+   .div6_img4{
+      background-image: url('https://i.postimg.cc/0j4ty4mZ/image.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+     
+   }
+
+
+
+   .na6{position: relative;
+      height: 32px;
+      width:22.5%;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 15px;
+      }
+
+   .na6 a{
+      font-weight: 600;
+      font-size: 24px;
+   }
+
+   .na6 h5{
+      font-size: 20px;
+      color: #1C1C1C;
+      margin-top: 10px;
+      font-weight: 500;
+   }
+
+   .na6 p{
+      font-size: 16px;
+      color: #a5a2a2;
+      margin-top: -30px;
+   }
+
+   .div6_more{
+      height: 70px;
+      width: 6%;
+      padding-left: 94%;
+
+      
+    }
+
+    .div6_more a{
+      color: #a5a2a2;
+    }
+
+    .div6_more a:hover{color: #262927;}
+
+   .div6{
+      background-color:#F3F5F3;
+   }
+
+  
+   .div7_title{
+      font-size: 36px;
+      text-align: center;
+      width: 100%;
+      height: 200px;
+      line-height: 200px;
+   }
+
+   .div7_category{
+      width: 100%;
+      height: 56px;
+      font-size: 24px;
+      text-align: center;
+      
+      
+      
+   }
+
+   .div7_name{
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 30px;
+     
+   }
+
+   .div7_name a{
+      text-decoration: none;
+      color: #373636;
+   }
+
+
+   .div7_name_2{
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 30px;
+     display: none;
+   }
+
+   .div7_name_2 a{
+      text-decoration: none;
+      color: #373636;
+   }
+
+
+   .div7_category a:not(:first-child){
+      margin-left: 8px;
+      margin-right: 8px;
+      text-decoration: none;
+       color: #726B6B;
+
+   }
+
+   .div7_category a:first-child{
+      text-decoration: none;
+      color: black;
+   }
+  
+   .im7:hover{
+      opacity: 0.8;
+   }
+
+   .div7_img{text-align: center;}
+
+   .im7{position: relative;
+      height: 420px;
+      width:22.5%;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      box-shadow: 3px 3px 3px #373636;
+
+   }
+
+   .div7_img1{
+      background-image: url('https://i.postimg.cc/906FSM9c/1.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+ 
+
+   }
+   .div7_img2{
+      background-image: url('https://i.postimg.cc/NjwjkKY4/2.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+     
+      
+   }
+   .div7_img3{
+      background-image: url('https://i.postimg.cc/j27RzbFm/3.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+     
+      
+   }
+   .div7_img4{
+      background-image: url('https://i.postimg.cc/9X67sFC4/4.png');
+      background-position: center bottom;
+      background-repeat: none;
+      background-size: cover;
+     
+   }
+
+
+
+   .na7{position: relative;
+      height: 32px;
+      width:22.5%;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top: 15px;
+      }
+
+   .na7 a{
+      font-weight: 600;
+      font-size: 24px;
+   }
+
+   .na7 h5{
+      font-size: 20px;
+      color: #1C1C1C;
+      margin-top: 10px;
+      font-weight: 500;
+   }
+
+   .na7 p{
+      font-size: 16px;
+      color: #a5a2a2;
+      margin-top: -30px;
+   }
+
+   .div7_more{
+      height: 70px;
+      width: 6%;
+      padding-left: 94%;
+    }
+
+    .div7_more a{
+      color: #a5a2a2;
+   }
+
+   .div7_more a:hover{
+      color: #262927 ;
+   }
+
+   .div8{
+      background-color:#F3F5F3;
+   }
+
+   .div8_title{
+      width: 100%;
+      height: 200px;
+      text-align: center;
+      }
+
+   .div8_title h6{
+      font-size: 36px;
+      line-height: 200px;
+   }
+
+   .div8_mainimg{
+      width: 27%;
+      height: 552px;
+      margin-left: 21.3%;
+      margin-right: 1.7%;
+      background-image: url('https://i.postimg.cc/2SXvpx9R/image.png');
+      background-position: center bottom;
+      background-repeat: none;
+      background-size: cover;
+      display: inline-block;
+      
+   }
+
+   .div8_text{
+      width: 50%;
+      height: 324px;
+      display: inline-block;
+      color: #1C1C1C;
+      font-weight: 480;
+      
+      
+   }
+   
+   .div8_text h7{
+      font-size: 32px;
+      color: #1C1C1C;
+   }
+
+   .div8_text p:nth-child(2){
+      font-size: 20px;
+   }
+
+   .div8_text p:nth-child(3){
+      font-size: 16px;
+   }
+
+   
+
+   .div8_text_2{display: none;
+     
+      }
+
+  
+   
+   .div8_text_2 h7{
+      font-size: 32px;
+      display: none;
+      color: #1C1C1C;
+      font-weight: 480;
+   }
+
+   .div8_text_2 p:nth-child(2){
+      font-size: 20px;
+      display: none;
+   }
+
+   .div8_text_2 p:nth-child(3){
+      font-size: 16px;
+      display: none;
+   }
+
+   .div8_ma{
+      width: 100%;
+      height: 65px;
+      display: inline-block;
+   }
+   
+
+   .im8{position: relative;
+      
+      height: 228px;
+      width: 18.3%;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      display: inline-block;
+   }
+
+   .div8_img1{
+      background-image: url('https://i.postimg.cc/dQgks1wp/1.png');
+      background-position: center bottom;
+      background-repeat: none;
+      background-size: cover;
+
+   }
+
+   .div8_img2{
+      background-image: url('https://i.postimg.cc/MGB3LXZw/2.png');
+      background-position: center bottom;
+      background-repeat: none;
+      background-size: cover;
+
+   }
+
+
+
+   .div9_title{
+      width: 100%;
+      height: 200px;
+      text-align: center;
+     line-height: 200px;
+     text-align: top
+   } 
+      
+   .div9_title h6{
+    font-size: 36px;  
+      
+   }
+   .im9:hover{
+      opacity: 0.8;
+   }
+
+   .im9{
+      position: relative;
+      height: 252px;
+      width:30.5%;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+      box-shadow: 3px 3px 3px #373636;}
+
+   .div9_img{
+      text-align: center;
+   }
+
+   .div9_img1{
+      background-image: url('https://i.postimg.cc/wj3MGvn1/hand.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+
+   }
+
+   .div9_img2{
+      background-image: url('https://i.postimg.cc/J014c4b4/hand2.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+
+
+   }
+
+   .div9_img3{
+      background-image: url('https://i.postimg.cc/QdBNqzW5/hand3.png');
+      background-position: center center;
+      background-repeat: none;
+      background-size: cover;
+
+   }
+
+   .na9{
+      margin-top: 15px;
+      position: relative;
+      height: 52px;
+      width:30.5%;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+
+   .div9_name1_2{display: none;}
+   .div9_name2_2{display: none;}
+   .div9_name3_2{display: none;}
+
+   
+   .na9 a{
+      font-weight: 600;
+      font-size: 24px;
+   }
+
+   .na9 h5{
+      font-size: 20px;
+      color: #1C1C1C;
+      margin-top: 10px;
+      font-weight: 500;
+   }
+
+   .na9 p{
+      font-size: 16px;
+      color: #655E5E;
+      margin-top: -30px;
+   }
+
+   .div9_more{
+      height: 70px;
+      width: 6%;
+      padding-left: 94%;
+    }
+   .div9_name{
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 30px;
+     
+   }
+
+   .div9_name a{
+      text-decoration: none;
+      color: #373636;
+   }
+
+
+   .div9_category a:not(:first-child){
+      margin-left: 8px;
+      margin-right: 8px;
+      text-decoration: none;
+       color: #726B6B;
+
+   }
+
+   .div9_category a:first-child{
+      text-decoration: none;
+      color: black;
+   }
+   
+   .div10_footer{
+      height: 300px;
+      width: 100%;
+      text-align: center;
+      padding-top: 100px;
+      background-color: black;
+      color: white;
+      margin-top: 20px;
+   }
+
+   .div10_footer h7{font-size: 24px;}
+
+@media(min-width:800px) and (max-width:1200px){
+
+   .div5_intro{
+      width: 60%;
+      margin-left: 5%;
+    }
+   
+   .im5{
+      height: 346px;
+      width:45%;
+   }
+
+
+   .na5{
+      height: 32px;
+      width:45%;
+   }
+   .div5_name1{display: none;}
+   .div5_name2{display: none;}
+
+   .div5_name_2{display: block;}
+   
+
+   .im6{
+      height: 420px;
+      width:45%;
+   }
+   .na6{
+      height: 32px;
+      width:45%;
+      }
+   
+   .div6_name1{display: none;}
+   .div6_name2{display: none;}
+
+   .div6_name_2{display:block;}
+
+   .im7{
+      height: 420px;
+      width:45%;
+   }
+   .na7{
+      height: 32px;
+      width:45%;
+      }
+   
+   .div7_name1{display: none;}
+   .div7_name2{display: none;}
+
+   .div7_name_2{display:block;}
+
+   .im8{
+      height: 370px;
+      width: 40%;
+ }
+
+      .div8_text{
+      width: 40%;
+      height: 580px;
+     }
+
+     .div8_subimg{text-align: center;}
+
+   
+}
+
+@media(min-width:0px) and (max-width:799px){.im5{
+      height: 346px;
+      width:88%;
+      margin-top: 25px;
+   }
+
+
+   .na5{
+      height: 32px;
+      width:88%;
+      
+   }
+
+   .div5_intro{
+      width: 60%;
+      margin-left: 5%;
+    }
+   .div5_name1{display: none;}
+   .div5_name2{display: none;}
+   .div5_name_2{display: block;}
+
+   .div5_name2_2{display: none;}
+   .div5_name4{display: none;}
+
+   .div5_img2{display: none;}
+   .div5_img4{display: none;}
+
+   .im6{
+      height: 420px;
+      width:88%;
+      
+   }
+   .na6{
+      height: 32px;
+      width:88%;
+      }
+   
+   .div6_name1{display: none;}
+   .div6_name2{display: none;}
+   .div6_name_2{display:block;}
+
+   .div6_name2_2{display: none;}
+   .div6_name4{display: none;}
+
+   .div6_img2{display: none;}
+   .div6_img4{display: none;}
+
+   .im7{
+      height: 420px;
+      width:88%;
+   }
+   .na7{
+      height: 32px;
+      width:88%;
+      }
+   
+   .div7_name1{display: none;}
+   .div7_name2{display: none;}
+   .div7_name_2{display:block;}
+
+   .div7_name2_2{display: none;}
+   .div7_name4{display: none;}
+
+   .div7_img2{display: none;}
+   .div7_img4{display: none;}
+
+   .im8{
+      height: 370px;
+      width: 88%;
+ }
+   
+  .div8_text{  display: none;}
+   .div8_text_2{
+    
+      width: 88%;
+      height: 400px;
+      text-align: center;
+      margin-left: 6%;
+      margin-right: 6%;
+      margin-top: 15px;
+     }
+
+     
+     .div8_text_2{display: block;}
+
+     .div8_text_2 h7{
+      font-weight: 600px;
+      font-size: 32px;
+      display: block;
+   }
+
+   .div8_text_2 p:nth-child(2){
+      font-size: 20px;
+      display: block;
+   }
+
+   .div8_text_2 p:nth-child(3){
+      font-size: 16px;
+      display: block;
+   }
+
+     .div8_subimg{text-align: center;}
+     .div8_mainimg{
+      margin-left: 6%;
+   margin-right: 6%;
+      width: 88%;
+      }
+
+      .na9{
+      margin-top: 15px;
+      position: relative;
+      height: 52px;
+      width:88%;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+   
+   .im9{
+      position: relative;
+      height: 252px;
+      width:88%;
+      display: inline-block;
+      margin-top: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+      box-shadow: 3px 3px 3px #373636;}
+
+   .div9_name1{display: none;}
+   .div9_name2{display: none;}
+   .div9_name3{display: none;}
+
+   .div9_name1_2 a{text-decoration: none;}
+   .div9_name2_2 a{text-decoration: none;}
+   .div9_name3_2 a{text-decoration: none;}
+
+   .div9 a{color: #1C1C1C;}
+}
+
+
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+
+
+    <div class="div1">
+        <a href="index.html"><img class="logo_img" src="https://i.postimg.cc/N0q5LJPp/image.png" ></a>
+    </div>
+
+
+    <div class="div2">
+        <a href="page1.HTML">작가 갤러리</a>
+        <a href="page2.HTML">그림 모아보기</a>
+        <a href="#">그림책</a>
+        <a href="#">핸드 메이드</a>
+    </div>
+    
+    <div class="div2-2"><h1> 이달의 BEST</h1></div>
+    
+    <div class="div3">
+		<input type="radio" name="slide" id="slide01" checked>
+		<input type="radio" name="slide" id="slide02">
+		<input type="radio" name="slide" id="slide03">
+
+		<div class="slidewrap">
+			<ul class="slidelist">
+				<li>
+					<a>
+						<label for="slide03" class="left"></label>
+						<img src="https://i.postimg.cc/L66P17C6/3.png">
+               	<label for="slide02" class="right"></label>
+					</a>
+				</li>
+				<li>
+					<a>
+						<label for="slide01" class="left"></label>
+						<img src="https://i.postimg.cc/8Cmj7zmX/2.png">
+						<label for="slide03" class="right"></label>
+					</a>
+				</li>
+				<li>
+					<a>
+						<label for="slide02" class="left"></label>
+						<img src="https://i.postimg.cc/hjsDCqRv/image.png">
+						<label for="slide01" class="right"></label>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+    
+    
+
+    <div class="div5_title">
+      <h3> NEW 작가</h3>
+   </div>
+
+  
+      <div class="div5_profile col"></div>
+       <div class="div5_intro col">
+         <p>안녕하세요 그림작가 이채은혜입니다.<br>
+            * 2015 그림책 '가슴이 콩닥콩닥' (노란돼지) 글,그림. 출간. 
+            그린 책으로는 낮잠 잘 시간이야 (엔이키즈) ,<br> 아빠와 함께 일요일 (시리우스), 
+            정아의 구름 여행 (그린키즈) , 만년 샤쓰 (씽크하우스), 우리는 친구(교원) 등이 있습니다.<br>
+             미래엔, 천재교육, 교원, 대교, 아이코리아, 연두비, 웅진, 
+             지학사, 다락원, 굿네이버스, 등 다수의 책, 사보 작업을 하였습니다. </p>
+       </div>
+<div class="box">
+      <div class="div5_img">
+         <a class="div5_img1 im5" href="https://i.postimg.cc/g0jdF2L9/1.png"></a>
+         <a class="div5_img2 im5" href="https://i.postimg.cc/yNg5ygSN/2.png"></a>
+      
+      <div class="div5_name_2">
+         <div class="div5_name1_2 na5"><a href="https://i.postimg.cc/g0jdF2L9/1.png">별 비</a></div>
+         <div class="div5_name2_2 na5"><a href="https://i.postimg.cc/yNg5ygSN/2.png">설탕이 좋아</a></div>
+      </div>
+
+         <a class="div5_img3 im5" href="https://i.postimg.cc/508RDhgd/3.png"></a>
+         <a class="div5_img4 im5" href="https://i.postimg.cc/fyZrs8q3/4.png"></a>
+      </div>
+
+      <div class="div5_name">
+         <div class="div5_name1 na5"><a href="https://i.postimg.cc/g0jdF2L9/1.png">별 비</a></div>
+         <div class="div5_name2 na5"><a href="https://i.postimg.cc/yNg5ygSN/2.png">설탕이 좋아</a></div>
+         <div class="div5_name3 na5"><a href="https://i.postimg.cc/508RDhgd/3.png">기다리고 있을게</a></div>
+         <div class="div5_name4 na5"><a href="https://i.postimg.cc/fyZrs8q3/4.png">달나라 여행을 간 토끼</a></div>
+      </div>
+
+      <div class="div5_more"><a href="#">more</a></div>
+</div>
+         
+      
+         
+         
+<div class="div6">
+    <div class="div6_title"><h4>분야별 그림</h4></div>
+
+    <div class="div6_category">
+      <a href="#">그림책</a>
+      <a href="#">세밀화</a>
+      <a href="#">캐릭터</a>
+      <a href="#">광고/CF</a>
+
+    </div>
+
+    <div class="div6_img">
+      <a class="div6_img1 im6" a href="https://i.postimg.cc/t4w6JjYL/image.png"></a>
+      <a class="div6_img2 im6" a href="https://i.postimg.cc/59rpvZYS/image.png"></a>
+
+   <div class="div6_name_2">
+      <div class="div6_name1_2 na6">
+         <a href="https://i.postimg.cc/t4w6JjYL/image.png">봄</a>
+         <h5>정은주</h5>
+         <p>2022-06-13</p>
+      </div>
+      
+      <div class="div6_name2_2 na6">
+         <a href="https://i.postimg.cc/59rpvZYS/image.png">꿈나라</a>
+         <h5>나지현</h5>
+         <p>2022-06-13</p>
+      </div>
+   </div>
+
+      <a class="div6_img3 im6" a href="https://i.postimg.cc/fLT5jsfB/image.png"></a>
+      <a class="div6_img4 im6" a href="https://i.postimg.cc/0j4ty4mZ/image.png"></a>
+   </div>
+   
+   <div class="div6_name">
+      <div class="div6_name1 na6">
+         <a href="https://i.postimg.cc/t4w6JjYL/image.png">봄</a>
+         <h5>정은주</h5>
+         <p>2022-06-13</p>
+      </div>
+      
+      <div class="div6_name2 na6">
+         <a href="https://i.postimg.cc/59rpvZYS/image.png">꿈나라</a>
+         <h5>나지현</h5>
+         <p>2022-06-13</p>
+      </div>
+      
+      <div class="div6_name3 na6">
+         <a href="https://i.postimg.cc/fLT5jsfB/image.png">서핑갈매기</a>
+         <h5>한미정</h5>
+         <p>2022-06-08</p>
+      </div>
+      
+      <div class="div6_name4 na6">
+         <a href="https://i.postimg.cc/0j4ty4mZ/image.png">빨간머리 앤</a>
+         <h5>정은지</h5>
+         <p>2022-06-08</p>
+      </div>
+   </div>
+
+   <div class="div6_more"><a href="#">more categories</a></div>
+</div>
+
+
+<div class="div7">
+   <div class="div7_title"><h4>표현별 그림</h4></div>
+
+   <div class="div7_category">
+     <a href="#">동양화</a>
+     <a href="#">디지털</a>
+     <a href="#">색연필</a>
+     <a href="#">투명</a>
+     <a href="#">불투명</a>
+
+   </div>
+
+   <div class="div7_img">
+     <a class="div7_img1 im7" a href="https://i.postimg.cc/906FSM9c/1.png"></a>
+     <a class="div7_img2 im7" a href="https://i.postimg.cc/NjwjkKY4/2.png"></a>
+
+     <div class="div7_name_2">
+      <div class="div7_name1_2 na7">
+         <a href="https://i.postimg.cc/906FSM9c/1.png">Blue Flowers are dancing</a>
+         <h5>숨은달</h5>
+         <p>2022-05-25</p>
+      </div>
+      
+      <div class="div7_name2_2 na7">
+         <a href="https://i.postimg.cc/NjwjkKY4/2.png">달만 보는 달새처럼</a>
+         <h5>숨은달</h5>
+         <p>2022-05-18</p>
+      </div>
+   </div>
+
+
+     <a class="div7_img3 im7" a href="https://i.postimg.cc/j27RzbFm/3.png"></a>
+     <a class="div7_img4 im7" a href="https://i.postimg.cc/9X67sFC4/4.png"></a>
+  </div>
+  
+  <div class="div7_name">
+     <div class="div7_name1 na7">
+        <a href="https://i.postimg.cc/906FSM9c/1.png">Blue Flowers are dancing</a>
+        <h5>숨은달</h5>
+        <p>2022-05-25</p>
+     </div>
+     
+     <div class="div7_name2 na7">
+        <a href="https://i.postimg.cc/NjwjkKY4/2.png">달만 보는 달새처럼</a>
+        <h5>숨은달</h5>
+        <p>2022-05-18</p>
+     </div>
+     
+     <div class="div7_name3 na7">
+        <a href="https://i.postimg.cc/j27RzbFm/3.png">모란_퍼플</a>
+        <h5>김승혜</h5>
+        <p>2022-05-15</p>
+     </div>
+     
+     <div class="div7_name4 na7">
+        <a href="https://i.postimg.cc/9X67sFC4/4.png">혼자하는 여행</a>
+        <h5>황록휴</h5>
+        <p>2022-05-05</p>
+     </div>
+  </div>
+
+  <div class="div7_more"><a href="#">more categories</a></div>
+</div>
+
+
+  <div class="div8">
+    <div class="div8_title">
+      <h6>산그림작가 그림책</h6>
+    </div>
+
+   
+    <div class="div8_mainimg col"></div>
+
+    <div class="div8_text col">
+      <h7>행복한 인형</h7>
+      <P>글 황적현/ 그림 박노한</P>
+      <p>아기와 함께 집에 들어온 토끼 인형이<br>
+         이제는 집을 떠나야 하는 날이 왔습니다.<br>
+         그래서 인형은 쓰레기통 옆에 앉아 있을 계획입니다.<br>
+         왜냐하면 다시 집에 들어갈수 있을 거라 믿기 때문이지요.<br> 
+         상처투성이인 낡은 토끼 인형은
+         다시 집으로 들어갈 수 있을까요?</p>     
+    </div>
+   
+
+    <div class="div8_subimg">
+      <div class="div8_img1 im8"></div>
+      <div class="div8_img2 im8"></div>
+    </div>
+
+    <div class="div8_text_2">
+      <h7>행복한 인형</h7>
+      <P>글 황적현/ 그림 박노한</P>
+      <p>아기와 함께 집에 들어온 토끼 인형이<br>
+         이제는 집을 떠나야 하는 날이 왔습니다.<br>
+         그래서 인형은 쓰레기통 옆에 앉아 있을 계획입니다.<br>
+         왜냐하면 다시 집에 들어갈수 있을 거라 믿기 때문이지요.<br> 
+         상처투성이인 낡은 토끼 인형은
+         다시 집으로 들어갈 수 있을까요?</p>     
+    </div>
+
+    <div class="div8_ma"></div>
+   </div>
+
+
+    <div class="div9">
+      <div class="div9_title"><h6>핸드메이드</h6></div>
+      
+      <div class="div9_img">
+         <a class="div9_img1 im9" href="https://i.postimg.cc/wj3MGvn1/hand.png"></a>
+        
+            <div class="div9_name1_2 na9">
+               <a href="https://i.postimg.cc/wj3MGvn1/hand.png">별고양이 밤밤</a>
+               <h5>박선영</h5>
+               <p>2022-06-07</p>
+            </div>
+
+         <a class="div9_img2 im9" href="https://i.postimg.cc/59rpvZYS/image.png"></a>
+         <div class="div9_name2_2 na9">
+            <a href="https://i.postimg.cc/59rpvZYS/image.png">Gold Key ring.</a>
+            <h5>젠틀멜로우</h5>
+            <p>2022-03-25</p>
+         </div>
+         <a class="div9_img3 im9" href="https://i.postimg.cc/fLT5jsfB/image.png"></a>
+         
+         <div class="div9_name3_2 na9">
+            <a href="https://i.postimg.cc/fLT5jsfB/image.png">2022 Tiger Calendar</a>
+            <h5>온온</h5>
+            <p>2022-02-08</p>
+         </div>
+
+      </div>
+
+    </div>
+
+    <div class="div9_name">
+      <div class="div9_name1 na9">
+         <a href="https://i.postimg.cc/wj3MGvn1/hand.png">별고양이 밤밤</a>
+         <h5>박선영</h5>
+         <p>2022-06-07</p>
+      </div>
+      
+      <div class="div9_name2 na9">
+         <a href="https://i.postimg.cc/59rpvZYS/image.png">Gold Key ring.</a>
+         <h5>젠틀멜로우</h5>
+         <p>2022-03-25</p>
+      </div>
+      
+      <div class="div9_name3 na9">
+         <a href="https://i.postimg.cc/fLT5jsfB/image.png">2022 Tiger Calendar</a>
+         <h5>온온</h5>
+         <p>2022-02-08</p>
+      </div>
+      
+      
+   </div>
+   
+   <div class="div10_footer">
+      <h7>ABOUT US</h7>
+      <p>LOCATION
+         <br>[10229] 경기 고양시 일산서구 덕이동 1529 하이파크시티 일산파밀리에 2단지 211동 501호</p>
+      <p>CONTACT US
+         <br> 이메일:koreanillust@naver.com
+         <br> 근무시간 : PM 12:00 ~ PM 4:00
+         <br> 주말, 공휴일 휴무 
+      </p>
+   </div>
+
+
+
+
+
+</body>
+</html>
